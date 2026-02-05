@@ -17,38 +17,21 @@
 <body>
     <main class="container">
         <header class="header">
-            <div class="logo">
+            <a href="/" class="logo" data-link>
                 <img src="images/icon128.png" alt="Speed Reader" class="logo-icon">
                 <span class="logo-text">Speed Reader</span>
-            </div>
+            </a>
+            <nav class="nav">
+                <a href="/welcome" class="nav-link" data-link>Welcome</a>
+                <a href="/guide" class="nav-link" data-link>Guide</a>
+            </nav>
         </header>
 
-        <section class="hero">
-            <h1 class="title">Read faster with <span class="highlight">RSVP technology</span></h1>
-        </section>
-
-        <section class="steps">
-            <div class="step">
-                <div class="step-content">
-                    <h2>1. Pin the extension</h2>
-                    <p>Click the <strong>puzzle icon (1)</strong> in the top right of your browser, then click the <strong>pin icon (2)</strong> next to Speed Reader to keep it visible.</p>
-                </div>
-                <div class="step-image">
-                    <img src="images/step1-pin.png" alt="How to pin the extension">
-                </div>
-            </div>
-
-            <div class="step">
-                <div class="step-content">
-                    <h2>2. Click the extension icon to start</h2>
-                    <p>Click the <strong>Speed Reader icon (3)</strong> in your toolbar to start speed reading any text on the page.</p>
-                </div>
-                <div class="step-image">
-                    <img src="images/step2-open.png" alt="How to open the extension">
-                </div>
-            </div>
-        </section>
-
+        <div id="app-content">
+            <!-- Content will be loaded by router -->
+        </div>
     </main>
+
+    <script src="app.js"></script>
 </body>
 </html>

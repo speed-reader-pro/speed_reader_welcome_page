@@ -74,7 +74,8 @@ body {
 /* Header */
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 48px;
 }
 
@@ -82,6 +83,33 @@ body {
     display: flex;
     align-items: center;
     gap: 12px;
+    text-decoration: none;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    gap: 8px;
+}
+
+.nav-link {
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+    color: var(--text);
+    background: var(--bg-secondary);
+}
+
+.nav-link.active {
+    color: var(--primary);
+    background: rgba(231, 76, 60, 0.1);
 }
 
 .logo-icon {
@@ -288,6 +316,77 @@ body {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
+.btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--bg);
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    box-shadow: 0 2px 8px var(--shadow);
+}
+
+.btn-secondary:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--shadow);
+}
+
+.btn-secondary svg {
+    transition: transform 0.2s ease;
+}
+
+.btn-secondary:hover svg:last-child {
+    transform: translateX(4px);
+}
+
+.btn-secondary:hover svg:first-child {
+    transform: translateX(-4px);
+}
+
+/* Navigation Actions */
+.nav-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+/* Guide Page */
+.guide-content {
+    margin-bottom: 48px;
+}
+
+.guide-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 32px;
+    background: var(--bg-secondary);
+    border: 2px dashed var(--border);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.guide-placeholder svg {
+    color: var(--text-secondary);
+    margin-bottom: 24px;
+    opacity: 0.5;
+}
+
+.guide-placeholder h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 8px;
+}
+
+.guide-placeholder p {
+    font-size: 16px;
+    color: var(--text-secondary);
+}
+
 /* Footer */
 .footer {
     text-align: center;
@@ -320,6 +419,16 @@ body {
 
 /* Responsive */
 @media (max-width: 640px) {
+    .header {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .nav {
+        width: 100%;
+        justify-content: center;
+    }
+
     .container {
         padding: 24px 16px 40px;
     }
