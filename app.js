@@ -198,6 +198,14 @@ function navigate(path) {
     const content = document.getElementById('app-content');
     content.innerHTML = templates[route];
 
+    // Hide nav on /welcome and /guide pages
+    const nav = document.querySelector('.nav');
+    if (path === '/welcome' || path === '/guide' || path === '/') {
+        nav.style.display = 'none';
+    } else {
+        nav.style.display = '';
+    }
+
     // Update active nav link
     document.querySelectorAll('.nav-link').forEach(link => {
         const href = link.getAttribute('href');
