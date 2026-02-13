@@ -198,9 +198,9 @@ function navigate(path) {
     const content = document.getElementById('app-content');
     content.innerHTML = templates[route];
 
-    // Hide nav on /welcome and /guide pages
+    // Hide nav on /welcome and /guide pages, show on main page (/)
     const nav = document.querySelector('.nav');
-    if (path === '/welcome' || path === '/guide' || path === '/') {
+    if (path === '/welcome' || path === '/guide') {
         nav.style.display = 'none';
     } else {
         nav.style.display = '';
