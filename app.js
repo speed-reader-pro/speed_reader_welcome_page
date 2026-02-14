@@ -51,11 +51,21 @@ const guideTemplate = `
     <section class="steps">
         <div class="step">
             <div class="step-content">
+                <h2>Auto parse text</h2>
+                <p>Click the extension icon and Speed Reader will <strong>automatically detect</strong> and parse the main text content on the page — no selection needed.</p>
+            </div>
+            <div class="step-image">
+                <img src="images/guide1.png" alt="Auto parse text feature">
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-content">
                 <h2>Context menu</h2>
                 <p>Select any text on the page, right-click and choose <strong>"Speed Reader select text"</strong> from the context menu to instantly start reading.</p>
             </div>
             <div class="step-image">
-                <img src="images/guide1.png" alt="Context menu usage">
+                <img src="images/guide2.png" alt="Context menu usage">
             </div>
         </div>
 
@@ -65,7 +75,7 @@ const guideTemplate = `
                 <p>Click the <strong>Select element</strong> button to pick any element on the page — like an entire article, paragraph, or section — and read it all at once.</p>
             </div>
             <div class="step-image">
-                <img src="images/guide2.png" alt="Select element feature">
+                <img src="images/guide3.png" alt="Select element feature">
             </div>
         </div>
     </section>
