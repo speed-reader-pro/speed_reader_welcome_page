@@ -78,6 +78,16 @@ const guideTemplate = `
                 <img src="images/guide3.png" alt="Select element feature">
             </div>
         </div>
+
+        <div class="step">
+            <div class="step-content">
+                <h2>Zen Mode</h2>
+                <p>Open <strong>Zen Mode</strong> for a distraction-free full-page reader. It shows multiple words at a time, has progress scrubbing, adjustable font size, and keyboard controls — perfect for long reads.</p>
+            </div>
+            <div class="step-image">
+                <img src="images/guide4.png" alt="Zen Mode full-page reader">
+            </div>
+        </div>
     </section>
 
     <section class="controls-section">
