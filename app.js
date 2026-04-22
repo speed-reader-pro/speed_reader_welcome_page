@@ -51,11 +51,11 @@ const guideTemplate = `
     <section class="steps">
         <div class="step">
             <div class="step-content">
-                <h2>Auto parse text</h2>
-                <p>Click the extension icon and Speed Reader will <strong>automatically detect</strong> and parse the main text content on the page — no selection needed.</p>
+                <h2>Zen Mode</h2>
+                <p>Open <strong>Zen Mode</strong> for a distraction-free full-page reader. It shows multiple words at a time, has progress scrubbing, adjustable font size, and keyboard controls — perfect for long reads.</p>
             </div>
             <div class="step-image">
-                <img src="images/guide1.png" alt="Auto parse text feature">
+                <img src="images/guide1.png" alt="Zen Mode full-page reader">
             </div>
         </div>
 
@@ -76,16 +76,6 @@ const guideTemplate = `
             </div>
             <div class="step-image">
                 <img src="images/guide3.png" alt="Select element feature">
-            </div>
-        </div>
-
-        <div class="step">
-            <div class="step-content">
-                <h2>Zen Mode</h2>
-                <p>Open <strong>Zen Mode</strong> for a distraction-free full-page reader. It shows multiple words at a time, has progress scrubbing, adjustable font size, and keyboard controls — perfect for long reads.</p>
-            </div>
-            <div class="step-image">
-                <img src="images/guide4.png" alt="Zen Mode full-page reader">
             </div>
         </div>
     </section>
