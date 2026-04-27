@@ -40,6 +40,14 @@ const welcomeTemplate = `
             </svg>
         </a>
     </div>
+
+    <section class="other-extensions">
+        <p class="other-extensions-label">Try our other extensions</p>
+        <a href="https://chromewebstore.google.com/detail/pixel-art/hoelbnpckhabboheiepjdehipgmlkina" class="other-extension-card" target="_blank" rel="noreferrer noopener">
+            <span class="other-extension-name">Pixel Art</span>
+            <span class="other-extension-copy">Convert any image into retro pixel art</span>
+        </a>
+    </section>
 `;
 
 const guideTemplate = `
