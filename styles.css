@@ -707,6 +707,11 @@ body {
     color: var(--text-secondary);
 }
 
+.other-extensions-grid {
+    display: grid;
+    gap: 14px;
+}
+
 /* Responsive */
 @media (max-width: 640px) {
     .header {
